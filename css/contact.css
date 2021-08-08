@@ -1,0 +1,152 @@
+header {
+  background: none;
+  height: auto;
+}
+
+#navbar {
+  background: rgb(53, 52, 52, 0.9);
+}
+
+.container-contact {
+  display: flex;
+  padding: 50px 150px;
+  height: 90vh;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.contact-form {
+  color: #fff;
+  padding: 30px;
+  width: 50%;
+  background-image: linear-gradient(
+    125deg,
+    rgb(190, 3, 190),
+    rgb(160, 1, 160),
+    rgb(68, 0, 68)
+  );
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 300;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-top: 20px;
+}
+.contact-form form input {
+  padding: 10px;
+  border-color: transparent;
+  background: transparent;
+  border-bottom: 1px #fff solid;
+  color: #fff;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.contact-form form textarea {
+  padding: 10px;
+  border-color: transparent;
+  background: transparent;
+  border-bottom: 1px #fff solid;
+  color: #fff;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.contact-details {
+  width: 50%;
+  background-color: white;
+  color: #333;
+  padding: 30px;
+  box-shadow: rgb(218, 218, 218) 8px 8px;
+}
+
+.contact-details a {
+  color: #333;
+}
+
+.contact-details h2 {
+  font-size: 40px;
+  margin-left: 10px;
+}
+.contact-details div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: flex-start;
+  margin-top: 35px;
+  margin-left: 5px;
+}
+
+.contact-details div p {
+  padding: 20px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.contact-details div p span {
+  font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+  .container-contact {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .contact-form {
+    width: 80%;
+    box-shadow: rgb(218, 218, 218) 8px 8px;
+  }
+  .contact-details {
+    width: 80%;
+  }
+}
+
+@media (max-width: 770px) {
+  .container-contact {
+    padding: 50px;
+    height: 100%;
+  }
+  .contact-form .contact-details {
+    width: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  .container-contact {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .contact-form h2 {
+    font-size: 28px;
+    margin-left: 6px;
+  }
+  .contact-details h2 {
+    font-size: 28px;
+    margin-left: 6px;
+  }
+
+  .contact-details div {
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .contact-details div p {
+    font-size: 16px;
+    text-align: left;
+  }
+}

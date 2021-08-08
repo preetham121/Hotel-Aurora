@@ -1,0 +1,146 @@
+header {
+  background: url("../img/have_a_nice_day.jpg") no-repeat center center/cover;
+  text-align: center;
+  color: #fff;
+  height: 60vh;
+  margin-bottom: 30px;
+}
+
+.liner {
+  color: black;
+  font-size: 36px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+}
+
+#navbar {
+  background: rgb(51, 51, 51, 0.9);
+}
+
+.show h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  text-align: center;
+}
+
+.show h3 {
+  margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  border-bottom: coral solid 1px;
+  border-top: coral solid 1px;
+}
+
+.images img {
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.gallery-info {
+  margin-bottom: 8px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  height: 20vh;
+  text-align: center;
+}
+.gallery-info div {
+  height: 100%;
+  width: 100%;
+}
+.gallery-info h4 {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gallery-info p {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-primary {
+  background: coral;
+}
+
+@media (max-width: 1200px) {
+  .images {
+    grid-template-columns: 2fr 2fr;
+  }
+  .gallery-info {
+    grid-template-columns: 2fr;
+  }
+  footer {
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 1200px) {
+  footer {
+    margin-top: 25%;
+  }
+}
+
+@media (max-width: 540px) {
+  .liner {
+    display: block;
+  }
+  .images {
+    grid-template-columns: 2fr;
+    grid-gap: 5px;
+  }
+  footer {
+    margin-top: 62%;
+  }
+}
+
+@media (max-width: 420px) {
+  footer {
+    margin-top: 98%;
+  }
+  .show h3 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 422px) {
+  footer {
+    margin-top: 55vh !important;
+  }
+}
+
+@media (max-width: 376px) {
+  footer {
+    margin-top: 50vh !important;
+  }
+
+  @media (max-width: 376px) and (max-height: 678px) {
+    footer {
+      margin-top: 64vh !important;
+    }
+  }
+}
+@media (max-width: 362px) {
+  footer {
+    margin-top: 68vh !important;
+  }
+}
+
+@media (max-width: 322px) {
+  footer {
+    margin-top: 94vh !important;
+  }
+}

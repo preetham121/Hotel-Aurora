@@ -1,0 +1,511 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+header {
+  background: url("../img/reception_mod.jpg") center center/cover no-repeat;
+  width: 100%;
+  height: 70vh;
+}
+
+.bg-dark {
+  background: #333;
+  color: rgb(243, 243, 243);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+.line1,
+.line2,
+.line3 {
+  transition: 0.5s ease-in-out;
+}
+
+.btn {
+  background: rgb(255, 114, 63);
+  padding: 12px;
+  border-radius: 2px;
+  color: #fff;
+  text-align: center;
+  word-spacing: 0;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn:hover {
+  background: rgb(253, 134, 91);
+}
+
+#navbar {
+  display: flex;
+  padding: 18px;
+  width: 100%;
+}
+#navbar ul {
+  margin: auto;
+  margin-right: 0;
+  display: flex;
+}
+#navbar ul li {
+  padding: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#navbar ul li a {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.active {
+  color: coral !important;
+}
+
+.active-bg {
+  border-bottom: 3px coral solid;
+  padding-bottom: 20px;
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  font-weight: 400;
+}
+
+span {
+  color: rgb(255, 95, 37);
+  font-weight: 500;
+}
+
+.book {
+  margin-top: 2px;
+}
+
+.navigation:hover {
+  border-bottom: coral 3px solid;
+}
+
+.highlight {
+  color: #fff;
+  margin-top: 15vh;
+  text-align: center;
+  padding: 25px;
+}
+
+.highlight h2 {
+  font-weight: 100;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+}
+
+.highlight button {
+  margin-top: 15px;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px;
+}
+
+.highlight p {
+  margin-top: 10px;
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.breadcrumb {
+  background: rgb(228, 228, 228);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: coral solid 3px;
+}
+.breadcrumb ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+.breadcrumb ul li {
+  padding: 20px;
+}
+
+.breadcrumb ul li a {
+  padding: 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+.hotel-1 {
+  display: flex;
+  width: 100%;
+  height: 470px;
+  align-items: center;
+}
+
+.hotel-1 img {
+  width: 100%;
+  height: 100%;
+}
+.hotel-3 img {
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  padding: 30px;
+  text-align: center;
+  height: 100%;
+}
+
+.hotel-1 .content h3 {
+  margin-bottom: 15px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hotel-1 .content p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+}
+
+.hotel-2 {
+  display: flex;
+  height: 100%;
+  align-items: center !important;
+}
+
+.hotel-2 img {
+  width: 100%;
+}
+
+.hotel-2 div {
+  padding: 35px;
+  height: 100%;
+  text-align: center;
+}
+
+.bg {
+  background: rgb(255, 135, 92);
+}
+
+.hotel-2 h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.hotel-2 p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.hotel-3 {
+  display: flex;
+  width: 100%;
+  height: 470px;
+  align-items: center;
+}
+
+.hotel-3 img {
+  height: 100%;
+}
+
+.hotel-3 .content h3 {
+  margin-bottom: 15px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hotel-3 .content p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+}
+footer {
+  height: auto;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+}
+
+.comments {
+  padding: 20px;
+  /* margin-left: 150px;
+  margin-right: 150px; */
+  background: rgba(207, 207, 207, 0.2);
+  background: url("../img/pexels-abdel-rahman-abu-baker-2319426.jpg") center
+    center/cover no-repeat;
+}
+
+.say {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  margin-top: 10px;
+  font-weight: 300;
+  padding: 20px;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 5px;
+  overflow-y: scroll;
+  height: 30vh;
+  padding-top: 5px;
+}
+
+.reviews::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.reviews {
+  -ms-overflow-style: none;
+}
+
+.persona-review {
+  margin: 10px;
+  padding: 10px;
+}
+.persona-review img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+#name {
+  font-size: 20px;
+}
+
+.unicodes {
+  color: rgb(255, 221, 27);
+  font-size: 18px;
+}
+
+/* navigation mobile version */
+
+.burger {
+  display: none;
+}
+.burger div {
+  background-color: #fff;
+  height: 3px;
+  width: 26px;
+  margin: 5px;
+}
+
+.cross-mark1 {
+  transform: rotate(45deg) translate(-5px, 10px);
+  transition: 0.5s ease;
+}
+.cross-mark2 {
+  display: none;
+}
+
+.cross-mark3 {
+  transform: rotate(-45deg) translate(-5px, -10px);
+  transition: 0.5s ease;
+}
+@media (max-width: 1024px) {
+  .content {
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .burger {
+    display: block;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: 18px;
+  }
+  #navbar {
+    height: 10vh;
+
+    padding: 10px;
+  }
+
+  #navbar h1 {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 15px;
+  }
+
+  #navbar ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    flex-direction: column;
+    background: rgb(51, 51, 51, 0.9);
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+  }
+
+  #navbar ul li {
+    margin: 15px;
+  }
+
+  #navbar ul li a {
+    font-size: 30px;
+    margin: 10px;
+  }
+
+  .book {
+    padding: 25px;
+  }
+  .navigation:hover {
+    border: none;
+  }
+
+  .nav-link {
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+  }
+
+  .breadcrumb ul {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hotel-1 {
+    flex-direction: column;
+  }
+  .hotel-2 {
+    flex-direction: column;
+  }
+  .hotel-3 {
+    flex-direction: column;
+  }
+  .section2 {
+    margin-top: 35%;
+  }
+  .hotel-4 {
+    margin-top: 35%;
+  }
+}
+
+@media (max-width: 540px) {
+  #navbar h1 {
+    font-size: 35px;
+  }
+  .burger {
+    margin-top: 8px;
+  }
+
+  #navbar ul li a {
+    font-size: 20px;
+  }
+
+  .book {
+    padding: 25px;
+  }
+  .section2 {
+    margin-top: 32%;
+  }
+
+  .reviews {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 425px) {
+  #navbar h1 {
+    font-size: 30px;
+    margin-top: 3px;
+  }
+  .burger {
+    margin-right: 16px;
+  }
+  .highlight h2 {
+    font-size: 40px;
+  }
+  .highlight p {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .breadcrumb ul {
+    grid-template-columns: 2fr 2fr;
+  }
+
+  .breadcrumb ul li {
+    padding: 20px;
+    margin: 0px;
+  }
+
+  .breadcrumb ul li a {
+    padding: 0px;
+    margin: 0px;
+    font-size: 23px;
+  }
+  .say {
+    font-size: 30px;
+  }
+  #navbar ul li a {
+    font-size: 18px;
+  }
+
+  .book {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 360px) {
+  #navbar h1 {
+    font-size: 25px;
+    margin-top: 6px;
+  }
+}
+
+@media (max-width: 320px) {
+  .highlight {
+    margin-top: 25px;
+  }
+  .highlight h2 {
+    font-size: 30px;
+  }
+
+  .highlight p {
+    font-size: 16px;
+  }
+  .section2 {
+    margin-top: 45%;
+  }
+  .section3 {
+    margin-bottom: 20px;
+  }
+}

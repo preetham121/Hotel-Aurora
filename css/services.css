@@ -1,0 +1,129 @@
+header {
+  background: url("../img/bed_drinks_modified.jpg") no-repeat center
+    center/cover;
+  color: #fff;
+  height: 65vh;
+}
+
+.services_facilities {
+  text-align: center;
+  padding: 20px;
+}
+
+.services_facilities p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  font-size: 2rem !important;
+  text-align: center !important;
+  margin-top: 20px;
+}
+.services_facilities h2 {
+  font-weight: 300;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+}
+
+.services_facilities h3 {
+  text-align: start;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 35px;
+  font-weight: 300;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.services_facilities p {
+  text-align: start;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.services_facilities ul {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  text-align: start;
+  padding: 20px;
+  font-size: 23px;
+}
+
+.services_facilities ul li {
+  padding: 20px;
+  margin-left: 60px;
+}
+
+.services_facilities ul li {
+  display: inline-block;
+}
+
+.services_facilities ul li::before {
+  content: "\2022";
+  color: coral;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.images img {
+  height: 50%;
+  width: 50%;
+}
+
+.hotel-3 {
+  border-top: coral 1px solid;
+}
+
+.liner {
+  color: black;
+  font-size: 36px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+}
+
+@media (max-width: 1200px) {
+  .hotel-3 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1200px) {
+  .liner {
+    display: block;
+  }
+  .services_facilities ul {
+    grid-template-columns: repeat(2, auto);
+    font-size: 26px;
+  }
+  footer {
+    margin-top: 33%;
+  }
+}
+
+@media (max-width: 540px) {
+  .services_facilities p {
+    font-size: 23px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .services_facilities ul {
+    grid-template-columns: repeat(1, auto);
+    font-size: 26px;
+  }
+  .services_facilities ul li {
+    margin-left: 10px;
+  }
+  .services_facilities h3 {
+    text-align: center;
+  }
+  footer {
+    margin-top: 35%;
+  }
+}
